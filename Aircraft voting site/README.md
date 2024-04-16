@@ -1,0 +1,1 @@
+An aircraft voting site that places the voted planes in the Database and stores their info : speed , year , model (clicking on a plane transfers you to its wiki page) there are two versions: the old one and the new one
