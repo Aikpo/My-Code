@@ -1,0 +1,62 @@
+body {
+    font-family: Playfair Display; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    min-height: 100vh; 
+  }
+  
+  header, footer {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    color: #fff;
+  }
+  
+  main {
+    flex: 1; 
+  }
+  
+  .loginreg-container {
+    margin: 0 auto; 
+    max-width: 400px; 
+    padding: 20px; 
+    background-color: #ffffff;; 
+    border-radius: 5px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    height: max-content;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .form-group {
+    display: flex;
+    margin-bottom: 15px; 
+  }
+  
+
+  label {
+    display: block; 
+    margin-bottom: 5px;
+    font-size: 14px;
+    flex: 1;
+  }
+
+  .button {
+    background-color: rgb(4, 151, 63);
+    color: #a0dcbb; 
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(4, 71, 25); 
+  }
+  
+  input[type="text"]:hover, input[type="password"]:hover {
+    border-color: rgb(49, 48, 48); 
+  }
