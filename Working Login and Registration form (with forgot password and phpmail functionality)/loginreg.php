@@ -20,7 +20,7 @@ $message = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Check the reg form
     if (isset($_POST['register'])) {
-        // vzat datu is formi
+        // Grab data from the form
         $email = $_POST['email'];
         $name = $_POST['username'];
         $password = $_POST['password'];
